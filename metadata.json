@@ -1,0 +1,5 @@
+{
+  "name": "Consulta CNPJ Brasil",
+  "description": "Ferramenta de consulta de CNPJ utilizando a API ReceitaWS, com design moderno e fiel à identidade visual solicitada.",
+  "requestFramePermissions": []
+}
