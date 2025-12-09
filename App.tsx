@@ -59,7 +59,7 @@ const App: React.FC = () => {
           <div>
             <button 
               onClick={handleNewSearch}
-              className="mb-6 flex items-center text-gray-600 hover:text-[#E80070] font-medium text-sm transition-colors"
+              className="mb-6 flex items-center text-gray-600 hover:text-[#d81b60] font-medium text-sm transition-colors"
             >
               <ArrowLeft className="w-4 h-4 mr-1" /> Realizar nova consulta
             </button>
@@ -89,13 +89,13 @@ const App: React.FC = () => {
                       onChange={handleInputChange}
                       placeholder="00.000.000/0000-00"
                       maxLength={18}
-                      className="w-full h-14 pl-12 pr-4 text-lg border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#E80070] focus:border-transparent transition-all shadow-sm text-gray-700 bg-gray-50 focus:bg-white"
+                      className="w-full h-14 pl-12 pr-4 text-lg border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#d81b60] focus:border-transparent transition-all shadow-sm text-gray-700 bg-gray-50 focus:bg-white"
                      />
                   </div>
                   <button
                     type="submit"
                     disabled={loading}
-                    className="h-14 px-8 bg-[#E80070] hover:bg-[#C2005D] text-white font-bold text-lg rounded-lg transition-colors shadow-md disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center"
+                    className="h-14 px-8 bg-[#d81b60] hover:bg-[#ad1457] text-white font-bold text-lg rounded-lg transition-colors shadow-md disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center"
                   >
                     {loading ? '...' : 'Consultar'}
                   </button>
@@ -126,13 +126,13 @@ const App: React.FC = () => {
             {/* Info Cards Row */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-3xl mt-8">
               <div className="bg-white p-6 rounded-[16px] shadow-sm border border-gray-100">
-                 <h3 className="text-[#E80070] font-bold text-lg mb-2">O que é o CNPJ?</h3>
+                 <h3 className="text-[#d81b60] font-bold text-lg mb-2">O que é o CNPJ?</h3>
                  <p className="text-gray-600 text-sm leading-relaxed">
                    O Cadastro Nacional da Pessoa Jurídica é um número único que identifica uma pessoa jurídica e outros tipos de arranjo jurídico sem personalidade jurídica junto à Receita Federal.
                  </p>
               </div>
               <div className="bg-white p-6 rounded-[16px] shadow-sm border border-gray-100">
-                 <h3 className="text-[#E80070] font-bold text-lg mb-2">Dados Públicos</h3>
+                 <h3 className="text-[#d81b60] font-bold text-lg mb-2">Dados Públicos</h3>
                  <p className="text-gray-600 text-sm leading-relaxed">
                    Esta ferramenta consulta bases de dados públicas para retornar a situação cadastral, razão social, nome fantasia e endereço de empresas em todo o Brasil.
                  </p>

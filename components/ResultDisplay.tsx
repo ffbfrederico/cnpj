@@ -18,12 +18,12 @@ export const ResultDisplay: React.FC<ResultDisplayProps> = ({ data }) => {
     <div className="w-full max-w-6xl mx-auto animate-fade-in pb-12">
       {/* Header Result */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4">
-        <div className="border-l-4 border-[#E80070] pl-4">
+        <div className="border-l-4 border-[#d81b60] pl-4">
           <h2 className="text-2xl font-bold text-gray-800">Resultado da Consulta</h2>
         </div>
         <button 
           onClick={handlePrint}
-          className="text-gray-500 hover:text-[#E80070] text-sm underline flex items-center gap-1 transition-colors"
+          className="text-gray-500 hover:text-[#d81b60] text-sm underline flex items-center gap-1 transition-colors"
         >
           <Printer className="w-4 h-4" /> Imprimir Dados
         </button>
